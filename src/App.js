@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Button from '@mui/material/Button';
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import About from './components/About';
 import NextEvent from './components/NextEvent';
 import SignUp from './components/SignUp';
-import { alertTitleClasses, ThemeProvider } from '@mui/material';
+import { ThemeProvider } from '@mui/material';
 import { theme } from './theme/Theme';
 import { Helmet } from 'react-helmet';
 import { useViewport } from './state/useViewport';
 import { BREAK_POINT } from './state/breakPoint';
-import { useEffect, useState } from 'react';
 
 
 function App() {
@@ -22,7 +19,7 @@ function App() {
   return (
     <>
     <Helmet>
-      <body style="background-image: url('http://localhost:3000/white_sand_bg.png')">
+      <body style="background-image: url('white_sand_bg.png')">
 
       </body>
 

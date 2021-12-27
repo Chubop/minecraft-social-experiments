@@ -14,14 +14,6 @@ export const theme = createTheme({
                 }
             }
         },
-        MuiButton: {
-            styleOverrides: {
-                root: {
-                    fontFamily: 'MinecraftFive',
-                    color: 'purple'
-                }
-            }
-        },
         MuiInputBase: {
             styleOverrides: {
                 root: {

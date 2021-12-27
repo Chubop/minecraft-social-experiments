@@ -1,5 +1,4 @@
-import { Button } from '@mui/material';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import "../App.css";
 import { useViewport } from '../state/useViewport';
@@ -9,7 +8,7 @@ import { BREAK_POINT } from '../state/breakPoint';
 
 function PhotoCarousel() {
 
-  let sources = ["canyons.png", "peaks.png", "valley.png", "tree_with_balloon", "snow_path"];
+  // sources = ["canyons.png", "peaks.png", "valley.png", "tree_with_balloon", "snow_path"];
   let HEIGHT = "50VW"
 
 
@@ -38,23 +37,23 @@ function PhotoCarousel() {
         {/* put all of these images here to load them for the carousel */}
         <img
         alt="canyons"
-        src={`http://localhost:3000/peaks.png`}/>
+        src={`peaks.png`}/>
         <img
         alt="canyons"
         style={{height: HEIGHT}}
-        src={`http://localhost:3000/valley.png`}/>
+        src={`valley.png`}/>
         <img
         alt="canyons"
         style={{height: HEIGHT}}
-        src={`http://localhost:3000/tree_with_balloon.png`}/>
+        src={`tree_with_balloon.png`}/>
         <img
         alt="canyons"
         style={{height: HEIGHT}}
-        src={`http://localhost:3000/canyons.png`}/>
+        src={`canyons.png`}/>
         <img
         alt="canyons"
         style={{height: HEIGHT}}
-        src={`http://localhost:3000/birdseye_view_fit.png`}/>
+        src={`birdseye_view_fit.png`}/>
       </div>
 
         <Carousel
@@ -71,7 +70,7 @@ function PhotoCarousel() {
             <div style={{textAlign: 'center'}}>
               <Image
               placeholder="Birdseye view"
-              src={`http://localhost:3000/birdseye_view_fit.png`}>
+              src={"birdseye_view_fit.png"}>
                 Bird's eye view of the next map, <a href="https://www.planetminecraft.com/member/mcmeddon/">designed by McMeddon</a>
               </Image>
             </div>
@@ -79,7 +78,7 @@ function PhotoCarousel() {
             <div style={{textAlign: 'center'}}>
               <Image
               placeholder="canyons"
-              src={`http://localhost:3000/canyons.png`}>
+              src={`canyons.png`}>
                 Mesa Spawn
               </Image>
             </div>
@@ -87,7 +86,7 @@ function PhotoCarousel() {
             <div style={{textAlign: 'center'}}>
               <Image
               placeholder="peaks"
-              src={`http://localhost:3000/peaks.png`}>
+              src={`peaks.png`}>
                 Mountain Peaks
               </Image>
             </div>
@@ -95,7 +94,7 @@ function PhotoCarousel() {
             <div style={{textAlign: 'center'}}>
               <Image
               placeholder="valley"
-              src={`http://localhost:3000/valley.png`}>
+              src={`valley.png`}>
                 Spawn Valley
               </Image>
             </div>
@@ -103,7 +102,7 @@ function PhotoCarousel() {
             <div style={{textAlign: 'center'}}>
               <Image
               placeholder="tree with balloon"
-              src={`http://localhost:3000/tree_with_balloon.png`}>
+              src={`tree_with_balloon.png`}>
                 a splendid view
               </Image>
             </div>

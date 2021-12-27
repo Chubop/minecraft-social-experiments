@@ -1,11 +1,11 @@
-import { Button, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useEffect, useState } from 'react';
 import '../App.css';
 
 function UnitItem(props){
     return(
-        <Grid item item xs={3} props={props} style={{fontSize: '3.5vw', lineHeight: '0.5', marginBottom: '2.5vh', color: 'dimgray'}}>
+        <Grid item xs={3} props={props} style={{fontSize: '3.5vw', lineHeight: '0.5', marginBottom: '2.5vh', color: 'dimgray'}}>
             {props.children}
         </Grid>
     )
@@ -42,7 +42,7 @@ function Countdown(props){
         }
 
         return () => clearInterval(timerId);
-    }, [runTimer])
+    }, [runTimer, props.date])
 
     useEffect(() => {
         if (countDown < 0 && runTimer) {
@@ -52,7 +52,7 @@ function Countdown(props){
         }
     }, [countDown, runTimer])
 
-    const togglerTimer = () => setRunTimer((t) => !t);
+    // const togglerTimer = () => setRunTimer((t) => !t);
 
     const days = String(Math.floor(countDown / 86400));
     const hours = String(Math.floor(countDown / 3600) % 24);
