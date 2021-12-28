@@ -8,7 +8,7 @@ function NextEvent() {
       <div style={{marginTop: '5vh'}}>
         <Typography style={{backgroundColor: 'rgba(0, 0, 0, 0.06', paddingBottom: 20}}>
             Our first experiment will be set between five warring teams with two goals: 
-            <span style={{color: 'darkorange'}}> to survive an unknown impending threat,</span> and to <span style={{color: 'darkorange'}}>come out on top.</span>
+            <span style={{color: 'purple'}}> to survive an unknown impending threat,</span> and to <span style={{color: 'purple'}}>come out on top.</span>
         </Typography>
       </div>
       <span>
