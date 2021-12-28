@@ -10,7 +10,7 @@ import '../App.css';
 const ResponsiveAppBar = (props) => {
 
   return (
-    <AppBar props={props} position="sticky" elevation={0} style={{backgroundImage: "url('http://localhost:3000/black_stone.png')", height: '15vh', fontFamily: "Times New Roman"}}>
+    <AppBar props={props} position="sticky" elevation={0} style={{backgroundImage: "url('black_stone.png')", height: '15vh', fontFamily: "Times New Roman"}}>
       <Container maxWidth="xl">
           <Typography
             variant="h6"
@@ -31,10 +31,10 @@ const ResponsiveAppBar = (props) => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <img src="http://localhost:3000/experiments.png" alt="Minecraft Social Experiments" style={{width: 300, marginTop: '1vh'}}/>
+            <img src="experiments.png" alt="Minecraft Social Experiments" style={{width: 300, marginTop: '1vh'}}/>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
-            <img src="http://localhost:3000/experiments.png" alt="Minecraft Social Experiments" style={{width: 550, marginTop: '0', marginBottom: 0}}/>
+            <img src="experiments.png" alt="Minecraft Social Experiments" style={{width: 550, marginTop: '0', marginBottom: 0}}/>
           </Box>
 
         </Toolbar>
