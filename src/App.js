@@ -20,7 +20,6 @@ function App() {
     <>
     <Helmet>
       <body style="background-image: url('white_sand_bg.png')">
-
       </body>
 
     </Helmet>
