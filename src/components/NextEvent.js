@@ -16,9 +16,9 @@ function NextEvent() {
             <Typography style={{ marginBottom: '2vh', color: 'black', fontSize: '5vw', fontFamily: 'MinecraftFive', lineHeight: 1}}>
               <div style={{ textDecoration: 'underline' }}>Event Date</div>
               <span style={{ fontFamily: 'MinecraftFive', fontWeight: 'bold', color: 'dimGray' }}>1 / 2 / 2022</span>
-              <div style={{color: 'dimgray'}}>4:00 pm est</div>
+              <div style={{color: 'dimgray'}}>1:00 pm est</div>
             </Typography>
-              <Countdown style={{marginTop: '5vh'}} date={"02 Jan 2022 16:00:00 EST"}/>
+              <Countdown style={{marginTop: '5vh'}} date={"02 Jan 2022 13:00:00 EST"}/>
           </Typography>
         </span>
     </div>
