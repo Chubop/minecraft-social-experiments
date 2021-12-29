@@ -17,6 +17,7 @@ function SignUp() {
   const [buttonTxt, setButtonTxt] = useState("Join Discord");
   const [userHasSubmitted, setUserHasSubmitted] = useState(false);
   const [submitMsg, setSubmitMsg] = useState(<span></span>);
+  const [timer, setTimer] = useState(3);
 
 
   const handleSubmit = () => {
@@ -24,9 +25,10 @@ function SignUp() {
     setUserHasSubmitted(true);
     setSubmitMsg(
       <div style={{fontFamily: 'MinecraftFive', marginTop: '3vh', fontSize: 18}}>
-        <span style={{color: 'purple'}}>Thanks!</span> Opening your <span style={{color: 'purple'}}>Discord</span> invite now...
+        <span style={{color: 'purple'}}>Thanks!</span> Opening your <span style={{color: 'purple'}}>Discord</span> invite...
+        <div style={{fontSize: 14}}>or click <a href="https://discord.com/invite/Fz3TryZFhq">here</a></div>
       </div>
-  )
+    )
     setTimeout(() => {window.open( 'https://discord.gg/Fz3TryZFhq' )}, 3000);
   }
 

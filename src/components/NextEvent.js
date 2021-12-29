@@ -6,7 +6,7 @@ function NextEvent() {
   return (
     <div style={{textAlign: 'center'}}>
       <div style={{marginTop: '5vh'}}>
-        <Typography style={{backgroundColor: 'rgba(0, 0, 0, 0.06', paddingBottom: 20}}>
+        <Typography style={{backgroundColor: 'rgba(0, 0, 0, 0.06', paddingBottom: 20, paddingTop: 10}}>
             Our first experiment titled <span style={{color: 'darkred'}}>Doom</span> will be set between five warring teams with two goals: 
             <span style={{color: 'purple'}}> to survive an unknown impending threat,</span> and to <span style={{color: 'purple'}}>come out on top.</span>
         </Typography>
