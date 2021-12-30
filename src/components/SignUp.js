@@ -35,7 +35,7 @@ function SignUp() {
   return (
     <div style={{marginTop: '5vh', textAlign: 'center'}}>
         <Typography>
-            Want to take part in our first video? Sign up here to join the queue and Discord.
+            Want to take part in our first video? Click here to join our <span style={{color: 'purple'}}>Discord</span>.
             <div>
               <img style={{width: '12.5%', marginTop: '3vh'}}src={"https://cdn.logojoy.com/wp-content/uploads/20210422095037/discord-mascot.png"}/>
             </div>
